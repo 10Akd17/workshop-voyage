@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    margin-top: -15px;
+    height: 5%;
+    display: block;
+    background:linear-gradient(rgb(45, 253, 149) , rgb(34,193,195))
+}
+
+nav ul li{
+    color: honeydew;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 15px;
+    position: relative;
+    right: -60%;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav ul li:first-child{
+    position: relative;
+    right: 10%;
+}
+nav ul li:nth-child(2){
+    position: relative;
+    right: 11px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul img{
+    position: relative;
+    top: 12px;
+    left: 16px;
+}
+marquee{
+color: white;
+height: 10px;
+border:  thick double #ffffff;
+height: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container1, .container2, .container3{
+    border: 2px solid #7a7979;
+    margin: 20px;
+    display: flex;
+    border-radius: 10px;
+    height: 350px;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly ;
+    margin-left: 15%;
+    color: white;
+}
+
+
+.container1{
+    justify-content: space-evenly;
+    background:linear-gradient(rgb(191,129,148) ,rgb(86,166,241));
+    color: white;
+}
+.parag1, .parag2, .parag3{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parag2{
+    text-align: center;
+}
+.parag3{
+text-align: right;
+}
+.container2{
+    background: linear-gradient( rgb(97,227,194) , rgb(70,134,195));
+}
+.container3{
+background:linear-gradient(rgb(226,132,23) ,rgb(92,144,181)) ;
+}
+
+footer{
+    height:80px;
+    background:linear-gradient(rgb(45, 253, 149) , rgb(34,193,195));
+    display: flex;
+    align-items: center;
+    color: white;
+}
+footer ul {
+    display: flex;
+    margin-left: 60%;
+}
+
+
+footer ul li{
+    display: inline-block;
+    justify-self: flex-end;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
